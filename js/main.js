@@ -104,14 +104,10 @@
 
 {
     // 9-masala
-    function toCapitalize(text) {
-        if (text.length === 0){
-            // return "";
-        }
-        return text.charAt(0).toUppercase() + text.slice(1)
-            
-    }
-  console.log(toCapitalize("laylo"));
+    function toCapitalize(ism) {
+        return ism.charAt(0).toUppercase() + ism.slice(1)            
+    }   
+    // console.log(toCapitalize("laylo"));
 }
 
 
@@ -127,19 +123,22 @@
     // console.log(kopaytirish("salom", 3));
 }
 
-// {
-//   //  11 masala
-//   function foo(array) {
-//     array.reverse();
-//     console.log(array);
-//   }
-//   console.log(foo([1, 2, 3]));
-// }
-// {
-//   //  12 masala
-//   function son(array) {
-//     array.sort((a, b) => a - b);
-//     console.log(array);
-//   }
-//   console.log(son([2, 1, 13, 4]));
-// }
+
+{
+    //  11-masala
+    function reverse(array) {
+        array.reverse();
+        console.log(array);
+    }
+    // console.log(reverse([1, 2, 3]));
+}
+
+
+{
+    //  12 masala
+    function number(array) {
+        array.sort((a, b) => a - b);
+        console.log(array);
+    }
+    // console.log(number([2, 1, 13, 4]));
+}
