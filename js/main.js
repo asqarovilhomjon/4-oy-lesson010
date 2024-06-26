@@ -104,9 +104,9 @@
 
 {
     // 9-masala
-    function toCapitalize(ism) {
-        return ism.charAt(0).toUppercase() + ism.slice(1)            
-    }   
+    function toCapitalize(name) {
+        return name.charAt(0).toUpperCase() + name.slice(1);
+    }
     // console.log(toCapitalize("laylo"));
 }
 
